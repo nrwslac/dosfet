@@ -1,0 +1,13 @@
+# IOC archive file
+## iocAdmin PV's on this IOC
+
+# Generate IOC archive request
+file archive_iocAdmin.tpl-arch
+{
+    { IOC = "IOC:DOSFET:01" }
+}
+
+file dosfet.archive
+{
+    { IOC = "IOC:DOSFET:01", P  = "DOSFET:01" }
+}
