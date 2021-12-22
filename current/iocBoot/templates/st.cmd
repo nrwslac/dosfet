@@ -25,7 +25,7 @@ $$LOOP(FSWITCH)
 drvAsynIPPortConfigure( "bus$$INDEX", "$$HOST:10001", 0, 0, 0 )
 $$IF(ASYNTRACE)
 asynSetTraceMask( "bus$$INDEX", 0, 0x09 )
-asynSetTraceIOMask( "bus$$INDEX", 0, 0x0 )
+asynSetTraceIOMask( "bus$$INDEX", 0, 0x02 )
 $$ELSE(ASYNTRACE)
 asynSetTraceIOMask( "bus$$INDEX", 0, 0x1 ) # logging for normal operation
 $$ENDIF(ASYNTRACE)

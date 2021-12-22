@@ -1,1 +1,9 @@
 # Archive list for DiCon GP600 Fiber Switch
+$(P):A:1:DOSE 60
+$(P):B:1:DOSE 60
+$(P):C:1:DOSE 60
+$(P):D:1:DOSE 60
+$(P):A:2:DOSE 60
+$(P):B:2:DOSE 60
+$(P):C:2:DOSE 60
+$(P):D:2:DOSE 60

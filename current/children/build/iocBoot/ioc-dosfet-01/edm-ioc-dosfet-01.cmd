@@ -13,9 +13,7 @@ export IOC_PV=IOC:DOSFET:01
 source $SETUP_SITE_TOP/epicsenv-cur.sh
 pushd /reg/g/pcds/epics-dev/nrw/iocs/dosfet/current
 
-#export TOP_SCREEN=diconScreens/dicon.edl`
-#edm -x -eolc	\
-#	-m "IOC=IOC:DOSFET:01"	\
-#	-m "P=DOSFET:01"	\
-#	${TOP_SCREEN}  &
-echo "No screens for the DiCon fiber switch yet."
+export TOP_SCREEN=dosfetScreens/dosfet.edl
+edm -x -eolc	\
+	-m "device=DOSFET:01"	\
+	${TOP_SCREEN}  &

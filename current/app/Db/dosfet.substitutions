@@ -63,18 +63,18 @@ pattern { USER_P    , P  ,  SENSOR       }
 #  SENSOR - Must map to the hardware connections A-D
 #  DRAIN  - Must map to hardware connections for each sensor, 1 or 2
 #  DEV - Asyn port
-#file dosfetDrain.template
-#{
-#pattern {  P      ,  SENSOR,  DRAIN,	DEV	   }
-##	{  '$(P)' ,	A ,	1  ,	'$(DEV)'  }
-#	{  '$(P)' ,	B ,	1  ,	'$(DEV)'  }
-#	{  '$(P)' ,	C ,	1  ,	'$(DEV)'  }
-#	{  '$(P)' ,	D ,	1  ,	'$(DEV)'  }
-#	{  '$(P)' ,	A ,	2  ,	'$(DEV)'  }
-#	{  '$(P)' ,	B ,	2  ,	'$(DEV)'  }
-#	{  '$(P)' ,	C ,	2  ,	'$(DEV)'  }
-##	{  '$(P)' ,	D ,	2  ,	'$(DEV)'  }
-#}
+file dosfetDrain.template
+{
+pattern {  P      ,  SENSOR,  DRAIN,	DEV	   }
+	{  '$(P)' ,	A ,	1  ,	'$(DEV)'  }
+	{  '$(P)' ,	B ,	1  ,	'$(DEV)'  }
+	{  '$(P)' ,	C ,	1  ,	'$(DEV)'  }
+	{  '$(P)' ,	D ,	1  ,	'$(DEV)'  }
+	{  '$(P)' ,	A ,	2  ,	'$(DEV)'  }
+	{  '$(P)' ,	B ,	2  ,	'$(DEV)'  }
+	{  '$(P)' ,	C ,	2  ,	'$(DEV)'  }
+	{  '$(P)' ,	D ,	2  ,	'$(DEV)'  }
+}
 # Macros:
 #  P = device
 #  SENSOR - Must map to the hardware connections A-D

@@ -1,0 +1,1612 @@
+4 0 0
+beginScreenProperties
+major 4
+minor 0
+release 0
+x 192
+y 38
+w 240
+h 820
+font "helvetica-medium-r-18.0"
+ctlFont "helvetica-medium-r-10.0"
+btnFont "helvetica-medium-r-18.0"
+fgColor index 14
+bgColor index 1
+textColor index 14
+ctlFgColor1 index 30
+ctlFgColor2 index 32
+ctlBgColor1 index 34
+ctlBgColor2 index 35
+topShadowColor index 37
+botShadowColor index 44
+snapToGrid
+gridSize 5
+endScreenProperties
+
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 60
+w 244
+h 3
+lineColor index 54
+fillColor index 54
+lineWidth 3
+numPoints 2 {
+xPoints  {
+0 1
+1 242
+}
+yPoints  {
+0 61
+1 61
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 40
+w 235
+h 20
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 54
+useDisplayBg
+value {
+ "expressions"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 20
+w 235
+h 20
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 54
+useDisplayBg
+value {
+ "Array"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 15
+w 244
+h 3
+lineColor index 54
+fillColor index 54
+lineWidth 3
+numPoints 2 {
+xPoints  {
+0 1
+1 242
+}
+yPoints  {
+0 16
+1 16
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 65
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "All functions and operators"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 80
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "that can take a scalar value"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 95
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "can also take an array value."
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 110
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "Only array-specific functions"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 125
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "are listed here."
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 145
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "AVG(AA)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 175
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "STD(AA)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 205
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "AMAX(AA)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 235
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "AMIN(AA)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 160
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "AVERAGE OF ARRAY VALUES"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 190
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "STANDARD DEV. OF ARRAY VALUES"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 220
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "MAX. OF ARRAY VALUES"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 250
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "MIN. OF ARRAY VALUES"
+}
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 140
+w 243
+h 1
+lineColor index 54
+fillColor index 54
+numPoints 2 {
+xPoints  {
+0 5
+1 247
+}
+yPoints  {
+0 140
+1 140
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 265
+w 230
+h 25
+
+beginGroup
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 265
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "ARNDM"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 280
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "ARRAY of RANDOM, (0 to 1)"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 355
+w 229
+h 55
+
+beginGroup
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 355
+w 229
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "@0"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 385
+w 229
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "@@2"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 370
+w 219
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "GET VARIABLE 0 (@0=A, @1=B, ..)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 400
+w 219
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "GET VARIABLE CC"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 415
+w 229
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "AA[1,3]"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 430
+w 219
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "SUB-ARRAY (ELEMENTS NUMBERED 0..N)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 445
+w 229
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "AA{1,3}"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 460
+w 219
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "SUB-ARRAY IN PLACE (ELEMENTS LEFT"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 470
+w 219
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "IN PLACE, OTHER ELEMENTS SET TO ZERO)"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 295
+w 230
+h 25
+
+beginGroup
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 295
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "IX"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 310
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "ARRAY WITH VALUES 0,1,2..."
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 325
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "ARR(A)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 340
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "ARRAY WITH VALUES A,A,A,..."
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 485
+w 230
+h 25
+
+beginGroup
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 485
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "FWHM(AA)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 500
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "FULL WIDTH AT HALF MAX OF AA"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 515
+w 230
+h 25
+
+beginGroup
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 530
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "SMOOTH ARRAY (BINOMIAL OVER 5 CHANS)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 515
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "SMOO(AA)"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 545
+w 230
+h 25
+
+beginGroup
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 545
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "DERIV(AA)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 560
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "DERIVATIVE (WRT ARRAY INDEX)"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 575
+w 230
+h 25
+
+beginGroup
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 590
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "SUM OF ARRAY ELEMENTS"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 575
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "SUM(AA)"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 620
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "SMOO(AA) B TIMES"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 605
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "NSMOO(AA,B)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 635
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "NDERIV(AA,B)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 650
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "DERIV BY FITTING 2B+1 POINT SEGMENTS"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 665
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "FITPOLY(AA)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 680
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "FIT TO 2ND ORDER POLYNOMIAL"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 695
+w 230
+h 25
+
+beginGroup
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 695
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "FITMPOLY(AA,BB)"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 710
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "FITPOLY, IGNORING AA[I] IF BB[I]==0"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 725
+w 230
+h 25
+
+beginGroup
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 725
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "AA>>10"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 740
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "MOVE ARRAY ELEMENTS FORWARD IN ARRAY"
+}
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 755
+w 230
+h 14
+font "helvetica-medium-r-10.0"
+fgColor index 14
+useDisplayBg
+value {
+ "AA<<10"
+}
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 15
+y 770
+w 220
+h 10
+font "helvetica-medium-r-10.0"
+fgColor index 47
+useDisplayBg
+value {
+ "MOVE ARRAY ELEMENTS BACKWARD IN ARRAY"
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 0
+y 0
+w 30
+h 16
+fgColor index 0
+bgColor index 17
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-10.0"
+buttonLabel "TOP"
+numPvs 2
+numDsps 1
+displayFileName {
+  0 dosfetScreens/calcExamples.edl
+}
+menuLabel {
+  0 
+}
+symbols {
+  0 
+}
+closeAction {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 30
+y 0
+w 30
+h 16
+fgColor index 0
+bgColor index 17
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-10.0"
+buttonLabel "ALG"
+numPvs 2
+numDsps 1
+displayFileName {
+  0 dosfetScreens/calcAlgebraicExamples.edl
+}
+menuLabel {
+  0 
+}
+symbols {
+  0 
+}
+closeAction {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 60
+y 0
+w 30
+h 16
+fgColor index 0
+bgColor index 17
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-10.0"
+buttonLabel "TRIG"
+numPvs 2
+numDsps 1
+displayFileName {
+  0 dosfetScreens/calcTrigExamples.edl
+}
+menuLabel {
+  0 
+}
+symbols {
+  0 
+}
+closeAction {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 90
+y 0
+w 30
+h 16
+fgColor index 0
+bgColor index 17
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-10.0"
+buttonLabel "REL"
+numPvs 2
+numDsps 1
+displayFileName {
+  0 dosfetScreens/calcRelationalExamples.edl
+}
+menuLabel {
+  0 
+}
+symbols {
+  0 
+}
+closeAction {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 120
+y 0
+w 30
+h 16
+fgColor index 0
+bgColor index 17
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-10.0"
+buttonLabel "BIT"
+numPvs 2
+numDsps 1
+displayFileName {
+  0 dosfetScreens/calcBitwiseExamples.edl
+}
+menuLabel {
+  0 
+}
+symbols {
+  0 
+}
+closeAction {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 150
+y 0
+w 30
+h 16
+fgColor index 0
+bgColor index 17
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-10.0"
+buttonLabel "MISC"
+numPvs 2
+numDsps 1
+displayFileName {
+  0 dosfetScreens/calcMiscExamples.edl
+}
+menuLabel {
+  0 
+}
+symbols {
+  0 
+}
+closeAction {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 180
+y 0
+w 30
+h 16
+fgColor index 0
+bgColor index 17
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-10.0"
+buttonLabel "STR"
+numPvs 2
+numDsps 1
+displayFileName {
+  0 dosfetScreens/calcStringExamples.edl
+}
+menuLabel {
+  0 
+}
+symbols {
+  0 
+}
+closeAction {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 210
+y 0
+w 30
+h 16
+fgColor index 0
+bgColor index 17
+topShadowColor index 2
+botShadowColor index 12
+font "helvetica-medium-r-10.0"
+buttonLabel "ARR"
+numPvs 2
+numDsps 1
+displayFileName {
+  0 dosfetScreens/calcArrayExamples.edl
+}
+menuLabel {
+  0 
+}
+symbols {
+  0 
+}
+closeAction {
+  0 1
+}
+closeDisplay {
+  0 1
+}
+endObjectProperties
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 265
+w 230
+h 25
+
+beginGroup
+
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 355
+w 229
+h 55
+
+beginGroup
+
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 295
+w 230
+h 25
+
+beginGroup
+
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 485
+w 230
+h 25
+
+beginGroup
+
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 515
+w 230
+h 25
+
+beginGroup
+
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 545
+w 230
+h 25
+
+beginGroup
+
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 575
+w 230
+h 25
+
+beginGroup
+
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 695
+w 230
+h 25
+
+beginGroup
+
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 5
+y 725
+w 230
+h 25
+
+beginGroup
+
+
+endGroup
+
+endObjectProperties
+
+

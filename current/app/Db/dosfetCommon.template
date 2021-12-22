@@ -49,8 +49,8 @@ record(stringin, "$(P):VERSION") {
   field(DTYP, "stream")
   field(INP, "@dosfet.proto get_version $(DEV)")
   field(PINI, "YES")
-  #field(SDIS, "$(P):COMM:NOT_READY")
-  #field(DISS, "INVALID")
+  field(SDIS, "$(P):COMM:NOT_READY")
+  field(DISS, "INVALID")
 }
 
 # Read the device serial #
@@ -59,8 +59,8 @@ record(longin, "$(P):ID") {
   field(DTYP, "stream")
   field(INP, "@dosfet.proto get_serial $(DEV)")
   field(PINI, "YES")
-  #field(SDIS, "$(P):COMM:NOT_READY")
-  #field(DISS, "INVALID")
+  field(SDIS, "$(P):COMM:NOT_READY")
+  field(DISS, "INVALID")
 }
 
 # Process this after changing a setting you want to persist when DOSFET reboots

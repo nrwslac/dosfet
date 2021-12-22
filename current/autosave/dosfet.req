@@ -1,1 +1,5 @@
 # Autosave list for DiCon GP600 Fiber Switch
+$(P):A:1:ZERO_VOLTS
+$(P):B:1:ZERO_VOLTS
+$(P):C:1:ZERO_VOLTS
+$(P):D:1:ZERO_VOLTS
