@@ -1,5 +1,19 @@
-# Autosave list for DiCon GP600 Fiber Switch
+# Autosave list for DOSFET 
 $(P):A:1:ZERO_VOLTS
 $(P):B:1:ZERO_VOLTS
 $(P):C:1:ZERO_VOLTS
 $(P):D:1:ZERO_VOLTS
+
+$(P):A:1:DOSE.CALC
+$(P):B:1:DOSE.CALC
+$(P):C:1:DOSE.CALC
+$(P):D:1:DOSE.CALC
+
+$(P):A:1:DOSE.INPK
+$(P):A:1:DOSE.INPL
+$(P):B:1:DOSE.INPK
+$(P):B:1:DOSE.INPL
+$(P):C:1:DOSE.INPK
+$(P):C:1:DOSE.INPL
+$(P):D:1:DOSE.INPK
+$(P):D:1:DOSE.INPL
